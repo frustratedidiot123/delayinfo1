@@ -4,7 +4,7 @@
   "description": "Alexa local env for testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/StoyanD/faa-info/issues"
   },
-  "homepage": "https://github.com/StoyanD/faa-info"
+  "homepage": "https://github.com/StoyanD/faa-info",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "alexa-app-server": "^2.2.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "request-promise": "^3.0.0"
+  }
 }
