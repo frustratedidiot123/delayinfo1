@@ -8,7 +8,7 @@ var FAADataHelper = require('./faa_data_helper');
 
 
 var express_app = express();
-alexaApp.express({expressApp: expressApp, router: express.Router(), debug: false, checkCert: true});
+app.express({expressApp: expressApp, router: express.Router(), debug: false, checkCert: true});
 
 
 app.launch(function(req, res) {
