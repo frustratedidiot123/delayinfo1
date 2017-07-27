@@ -4,9 +4,8 @@
   "description": "get airport info, bigNerdRanch tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
-  },
-  "author": "C White",
+      },
+  "author": "CW",
   "license": "ISC",
   "dependencies": {
     "alexa-app": "^4.0.1",
