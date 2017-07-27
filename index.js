@@ -7,7 +7,7 @@ var app = new Alexa.app('airportinfo');
 var FAADataHelper = require('./faa_data_helper');
 
 
-var express_app = express();
+var expressApp = express();
 app.express({expressApp: expressApp, router: express.Router(), debug: false, checkCert: true});
 
 
