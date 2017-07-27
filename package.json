@@ -1,5 +1,5 @@
 {
-  "name": "faa-info",
+  "name": "delay-info",
   "version": "1.0.0",
   "description": "get airport info, bigNerdRanch tutorial",
   "main": "index.js",
