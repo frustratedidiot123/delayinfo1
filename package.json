@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "get airport info, bigNerdRanch tutorial",
   "main": "index.js",
-  "scripts": {
-      },
+   "scripts": {
+      "start": "index.js"
+  },
   "author": "CW",
   "license": "ISC",
   "dependencies": {
