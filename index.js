@@ -91,7 +91,7 @@ app.utterances = function () {
 };
 
 
-var PORT = process.env.PORT || 8080;
+//var PORT = process.env.PORT || 8080;
 expressApp.listen(process.env.PORT || 5000, function() {
     console.log('overlapy Running');
 });
