@@ -4,7 +4,7 @@
   "description": "get airport info, bigNerdRanch tutorial",
   "main": "index.js",
    "scripts": {
-      "start": "mocha index.js"
+      "start": "node index.js"
   },
   "author": "CW",
   "license": "ISC",
