@@ -40,8 +40,8 @@ app.intent('airportinfo', {
         res.say(faaHelper.formatAirportStatus(airportStatus)).send();
       }).catch(function(err) {
         console.log('err.statusCode: ',err.statusCode);
-        var prompt = 'I don\'t have data for any ' + airportCode + 'Why don\'t you try again?';
-        res.say(prompt).reprompt(reprompt).shouldEndSession(false).send();
+        var prompt = 'I don\'t have data for any ' + airportCode;
+        res.say(prompt).reprompt(reprompt).shouldEndSession(true).send(); //was false but reprompt was empty or something
       });
       //return false;
     }
